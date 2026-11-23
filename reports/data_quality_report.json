@@ -1,0 +1,198 @@
+{
+  "name": "processed_subnational",
+  "shape": [
+    594,
+    12
+  ],
+  "columns": [
+    "country",
+    "region",
+    "total_area_ha",
+    "extent_2000_ha",
+    "extent_2010_ha",
+    "gain_2000_2020_ha",
+    "tc_loss_ha",
+    "year",
+    "loss_rate_pct",
+    "cumulative_loss_ha",
+    "cumulative_loss_pct",
+    "carbon_emissions_Mg_CO2e"
+  ],
+  "missing_values": {
+    "country": 0,
+    "region": 0,
+    "total_area_ha": 0,
+    "extent_2000_ha": 0,
+    "extent_2010_ha": 0,
+    "gain_2000_2020_ha": 0,
+    "tc_loss_ha": 0,
+    "year": 0,
+    "loss_rate_pct": 0,
+    "cumulative_loss_ha": 0,
+    "cumulative_loss_pct": 0,
+    "carbon_emissions_Mg_CO2e": 0
+  },
+  "missing_pct": {
+    "country": 0.0,
+    "region": 0.0,
+    "total_area_ha": 0.0,
+    "extent_2000_ha": 0.0,
+    "extent_2010_ha": 0.0,
+    "gain_2000_2020_ha": 0.0,
+    "tc_loss_ha": 0.0,
+    "year": 0.0,
+    "loss_rate_pct": 0.0,
+    "cumulative_loss_ha": 0.0,
+    "cumulative_loss_pct": 0.0,
+    "carbon_emissions_Mg_CO2e": 0.0
+  },
+  "duplicates": 0,
+  "numeric_stats": {
+    "total_area_ha": {
+      "min": 580299.0,
+      "max": 156639184.0,
+      "mean": 31482801.85185185,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "extent_2000_ha": {
+      "min": 57626.0,
+      "max": 150649444.0,
+      "mean": 19229166.962962963,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "extent_2010_ha": {
+      "min": 64093.0,
+      "max": 150318817.0,
+      "mean": 18451792.0,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "gain_2000_2020_ha": {
+      "min": 4668.0,
+      "max": 1304430.0,
+      "mean": 298605.0,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "tc_loss_ha": {
+      "min": 20.0,
+      "max": 1573272.0,
+      "mean": 111324.12962962964,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "year": {
+      "min": 2001.0,
+      "max": 2022.0,
+      "mean": 2011.5,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "loss_rate_pct": {
+      "min": 0.03470655606844133,
+      "max": 3.7897620197150776,
+      "mean": 0.6522471179265179,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "cumulative_loss_ha": {
+      "min": 252.0,
+      "max": 16330101.0,
+      "mean": 1260903.861952862,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "cumulative_loss_pct": {
+      "min": 0.05405861305402494,
+      "max": 27.874159661784585,
+      "mean": 7.772290732840141,
+      "zeros": 0,
+      "negatives": 0
+    },
+    "carbon_emissions_Mg_CO2e": {
+      "min": 12412.0,
+      "max": 1054443155.0,
+      "mean": 60832158.41245791,
+      "zeros": 0,
+      "negatives": 0
+    }
+  },
+  "categorical_stats": {
+    "country": {
+      "unique": 1,
+      "top_values": {
+        "Brazil": 594
+      }
+    },
+    "region": {
+      "unique": 27,
+      "top_values": {
+        "Acre": 22,
+        "Para\u00edba": 22,
+        "S\u00e3o Paulo": 22,
+        "Sergipe": 22,
+        "Santa Catarina": 22
+      }
+    }
+  },
+  "year_range": [
+    2001,
+    2022
+  ],
+  "years_available": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "regions": [
+    "Acre",
+    "Alagoas",
+    "Amap\u00e1",
+    "Amazonas",
+    "Bahia",
+    "Cear\u00e1",
+    "Distrito Federal",
+    "Esp\u00edrito Santo",
+    "Goi\u00e1s",
+    "Maranh\u00e3o",
+    "Mato Grosso",
+    "Mato Grosso do Sul",
+    "Minas Gerais",
+    "Paran\u00e1",
+    "Para\u00edba",
+    "Par\u00e1",
+    "Pernambuco",
+    "Piau\u00ed",
+    "Rio Grande do Norte",
+    "Rio Grande do Sul",
+    "Rio de Janeiro",
+    "Rond\u00f4nia",
+    "Roraima",
+    "Santa Catarina",
+    "Sergipe",
+    "S\u00e3o Paulo",
+    "Tocantins"
+  ],
+  "n_regions": 27
+}

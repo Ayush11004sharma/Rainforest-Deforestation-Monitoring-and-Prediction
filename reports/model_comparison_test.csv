@@ -1,0 +1,5 @@
+Model,MAE,RMSE,R2,n_samples
+Historical Baseline,26091.77,69294.8,0.8697,81
+Random Forest,37385.88,77939.03,0.8352,81
+XGBoost,52121.05,113591.6,0.6498,81
+Linear Regression,53132.62,101483.19,0.7205,81

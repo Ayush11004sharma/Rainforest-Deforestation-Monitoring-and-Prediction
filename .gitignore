@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+oracleJdk*/
+jdk*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (raw data should not be committed)
+data/raw/*.csv
+data/processed/*.csv
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+
+# Reports
+reports/*.png
+reports/*.html
+
+# Jupyter & MyST Build
+.ipynb_checkpoints/
+_build/
+.myst/
+test_preview.html
+
+# Distribution
+dist/
+build/
+*.egg-info/

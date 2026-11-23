@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://pre.render/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://pre.render</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/rainforest-deforestation-complete</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/project-report</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/data-inspection</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/exploratory-analysis</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/feature-engineering</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/model-training</loc>
+  </url>
+  <url>
+    <loc>http://pre.render/model-evaluation</loc>
+  </url>
+</urlset>

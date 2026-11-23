@@ -1,0 +1,62 @@
+{
+  "total_loss_ha": 66126533.0,
+  "n_regions": 27,
+  "year_range": [
+    2001,
+    2022
+  ],
+  "n_years": 22,
+  "total_observations": 594,
+  "avg_annual_loss": 3005751.5,
+  "peak_year": 2016,
+  "peak_loss": 5378844.0,
+  "top_5_regions": [
+    "Par\u00e1",
+    "Mato Grosso",
+    "Maranh\u00e3o",
+    "Rond\u00f4nia",
+    "Amazonas"
+  ],
+  "bottom_5_regions": [
+    "Para\u00edba",
+    "Rio Grande do Norte",
+    "Rio de Janeiro",
+    "Alagoas",
+    "Distrito Federal"
+  ],
+  "avg_loss_rate": 0.6522471179265179,
+  "max_loss_rate": 3.7897620197150776,
+  "highest_rate_region": "Maranh\u00e3o",
+  "highest_avg_rate": 1.267007257353845,
+  "increasing_regions": [
+    "Acre",
+    "Amap\u00e1",
+    "Amazonas",
+    "Maranh\u00e3o",
+    "Paran\u00e1",
+    "Par\u00e1",
+    "Piau\u00ed",
+    "Rio Grande do Sul",
+    "Rio de Janeiro",
+    "Roraima",
+    "Santa Catarina",
+    "Tocantins"
+  ],
+  "decreasing_regions": [
+    "Alagoas",
+    "Bahia",
+    "Cear\u00e1",
+    "Distrito Federal",
+    "Esp\u00edrito Santo",
+    "Goi\u00e1s",
+    "Mato Grosso",
+    "Mato Grosso do Sul",
+    "Minas Gerais",
+    "Para\u00edba",
+    "Pernambuco",
+    "Rio Grande do Norte",
+    "Rond\u00f4nia",
+    "Sergipe",
+    "S\u00e3o Paulo"
+  ]
+}

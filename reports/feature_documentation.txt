@@ -1,0 +1,64 @@
+
+Feature Documentation
+=====================
+
+Target Variable:
+  tc_loss_ha — Annual tree-cover loss in hectares for the given region and year.
+
+Lag Features:
+  tc_loss_ha_lag1 — Tree-cover loss in the previous year.
+    Rationale: Most direct predictor; deforestation tends to persist year-over-year.
+    
+  tc_loss_ha_lag2 — Tree-cover loss two years prior.
+    Rationale: Captures medium-term persistence.
+    
+  tc_loss_ha_lag3 — Tree-cover loss three years prior.
+    Rationale: Captures longer-term baseline deforestation level.
+
+Rolling Features:
+  tc_loss_ha_roll_mean_3yr — Mean loss over the prior 3 years.
+    Rationale: Smoothed estimate of recent deforestation activity.
+    
+  tc_loss_ha_roll_std_3yr — Standard deviation of loss over the prior 3 years.
+    Rationale: Captures volatility in recent deforestation.
+    
+  tc_loss_ha_roll_mean_5yr — Mean loss over the prior 5 years.
+    Rationale: Longer-term average deforestation level.
+    
+  tc_loss_ha_roll_std_5yr — Standard deviation of loss over the prior 5 years.
+    Rationale: Longer-term volatility measure.
+
+Trend Features:
+  loss_change_1yr_lagged — Year-over-year change in loss (previous year).
+    Rationale: Direction and magnitude of recent deforestation change.
+    
+  loss_change_pct_1yr_lagged — Percentage year-over-year change (previous year).
+    Rationale: Relative rate of change.
+    
+  loss_acceleration — Change in the year-over-year change.
+    Rationale: Whether deforestation is accelerating or decelerating.
+    
+  loss_trend_3yr — Linear trend slope over the prior 3 years (ha/year).
+    Rationale: Direction and steepness of recent trend.
+
+Rate Features:
+  loss_rate_pct_lag1 — Previous year's forest-loss rate (%).
+    Rationale: Proportional loss relative to baseline.
+    
+  cumulative_loss_pct_lag1 — Previous year's cumulative loss as % of baseline.
+    Rationale: How much of original forest has been lost.
+
+Variability:
+  loss_cv_5yr — Coefficient of variation over trailing 5 years.
+    Rationale: Relative variability — identifies regions with erratic deforestation.
+
+Region Encoding:
+  region_encoded — Integer-encoded region identifier.
+    Rationale: Allows tree-based models to learn region-specific patterns.
+
+Leakage Prevention:
+  - All lag and rolling features use shift(1) or earlier data only.
+  - Rolling windows exclude the current observation.
+  - Trend features are computed from historical values only.
+  - No future carbon emissions, future loss values, or test-period statistics
+    are used as features.

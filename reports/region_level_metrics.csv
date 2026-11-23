@@ -1,0 +1,109 @@
+MAE,RMSE,R2,n_samples,Model,Region
+18786.0,21152.83,-0.0268,3,Historical Baseline,Acre
+736.67,757.0,-2.479,3,Historical Baseline,Alagoas
+1965.33,2026.17,-2.441,3,Historical Baseline,Amapá
+60074.33,64521.22,-0.0685,3,Historical Baseline,Amazonas
+21285.33,28527.5,-0.2714,3,Historical Baseline,Bahia
+428.67,501.7,-1.259,3,Historical Baseline,Ceará
+51.33,55.66,-4.2272,3,Historical Baseline,Distrito Federal
+1492.67,1763.75,-2.2673,3,Historical Baseline,Espírito Santo
+2919.0,3012.08,-0.2726,3,Historical Baseline,Goiás
+38420.0,44262.52,-1.7837,3,Historical Baseline,Maranhão
+262016.67,316352.05,-3.2476,3,Historical Baseline,Mato Grosso
+42309.33,49345.15,-3.5116,3,Historical Baseline,Mato Grosso do Sul
+13434.0,13512.2,-3.0275,3,Historical Baseline,Minas Gerais
+11536.0,11959.41,-2.3837,3,Historical Baseline,Paraná
+455.33,482.07,-0.2692,3,Historical Baseline,Paraíba
+112833.67,112835.72,-3.4905,3,Historical Baseline,Pará
+862.0,1012.32,-2.8647,3,Historical Baseline,Pernambuco
+13464.0,16555.04,-0.0817,3,Historical Baseline,Piauí
+967.67,1151.28,-1.9013,3,Historical Baseline,Rio Grande do Norte
+8307.33,8865.98,-2.1831,3,Historical Baseline,Rio Grande do Sul
+555.33,582.03,-2.2111,3,Historical Baseline,Rio de Janeiro
+26013.33,27920.17,-1.9596,3,Historical Baseline,Rondônia
+46012.67,72958.72,-641.63,3,Historical Baseline,Roraima
+1798.0,2889.84,-0.5334,3,Historical Baseline,Santa Catarina
+875.33,892.8,-4.4843,3,Historical Baseline,Sergipe
+6701.67,7559.94,-1.8708,3,Historical Baseline,São Paulo
+10176.0,12318.92,-1.4591,3,Historical Baseline,Tocantins
+8324.1,10747.06,0.7349,3,Linear Regression,Acre
+42420.0,42884.46,-11164.0307,3,Linear Regression,Alagoas
+5616.48,5895.65,-28.1333,3,Linear Regression,Amapá
+106724.38,110186.27,-2.1161,3,Linear Regression,Amazonas
+19571.3,21305.94,0.2908,3,Linear Regression,Bahia
+42123.43,42170.36,-15959.463,3,Linear Regression,Ceará
+10698.44,13169.25,-292624.1949,3,Linear Regression,Distrito Federal
+62379.19,62494.17,-4101.0583,3,Linear Regression,Espírito Santo
+24895.32,25770.97,-92.1568,3,Linear Regression,Goiás
+47651.65,52370.52,-2.8969,3,Linear Regression,Maranhão
+388867.45,415729.74,-6.3355,3,Linear Regression,Mato Grosso
+27399.54,35581.15,-1.3457,3,Linear Regression,Mato Grosso do Sul
+40244.85,41477.72,-36.9505,3,Linear Regression,Minas Gerais
+31906.0,33586.32,-25.687,3,Linear Regression,Paraná
+51253.26,51282.78,-14362.2635,3,Linear Regression,Paraíba
+164070.09,238822.22,-19.1165,3,Linear Regression,Pará
+56720.71,56728.98,-12135.5247,3,Linear Regression,Pernambuco
+13280.12,17585.14,-0.2205,3,Linear Regression,Piauí
+47691.78,47771.04,-4994.2972,3,Linear Regression,Rio Grande do Norte
+12974.68,17537.2,-11.4542,3,Linear Regression,Rio Grande do Sul
+2462.67,2483.99,-57.4873,3,Linear Regression,Rio de Janeiro
+38765.22,50686.7,-8.7541,3,Linear Regression,Rondônia
+21448.79,23055.98,-63.1762,3,Linear Regression,Roraima
+25737.38,27448.16,-137.3314,3,Linear Regression,Santa Catarina
+66853.98,67122.0,-30997.1677,3,Linear Regression,Sergipe
+47097.63,47587.41,-112.7499,3,Linear Regression,São Paulo
+27402.26,29348.24,-12.9572,3,Linear Regression,Tocantins
+24690.96,27951.96,-0.793,3,Random Forest,Acre
+533.42,556.71,-0.8816,3,Random Forest,Alagoas
+9826.7,10330.48,-88.4474,3,Random Forest,Amapá
+59891.88,73626.15,-0.3913,3,Random Forest,Amazonas
+53359.65,61110.98,-4.8343,3,Random Forest,Bahia
+4761.41,5532.04,-273.6641,3,Random Forest,Ceará
+317.68,333.79,-186.9905,3,Random Forest,Distrito Federal
+12202.88,12580.18,-165.2252,3,Random Forest,Espírito Santo
+6487.18,7531.3,-6.956,3,Random Forest,Goiás
+80391.61,88806.78,-10.2056,3,Random Forest,Maranhão
+298954.74,313243.06,-3.1645,3,Random Forest,Mato Grosso
+55436.06,57364.79,-5.0972,3,Random Forest,Mato Grosso do Sul
+45527.15,50979.26,-56.329,3,Random Forest,Minas Gerais
+5244.65,5303.64,0.3345,3,Random Forest,Paraná
+649.06,719.79,-1.8296,3,Random Forest,Paraíba
+173355.98,180456.01,-10.4854,3,Random Forest,Pará
+464.13,682.64,-0.7574,3,Random Forest,Pernambuco
+19178.74,21428.75,-0.8123,3,Random Forest,Piauí
+1538.49,1626.13,-4.7882,3,Random Forest,Rio Grande do Norte
+7447.91,8455.72,-1.8953,3,Random Forest,Rio Grande do Sul
+2202.73,2654.15,-65.7748,3,Random Forest,Rio de Janeiro
+21004.19,24847.53,-1.344,3,Random Forest,Rondônia
+64147.92,72261.14,-629.4,3,Random Forest,Roraima
+5362.47,5553.73,-4.6632,3,Random Forest,Santa Catarina
+848.86,1026.25,-6.2463,3,Random Forest,Sergipe
+13120.17,15684.34,-11.3566,3,Random Forest,São Paulo
+42472.16,50730.51,-40.7034,3,Random Forest,Tocantins
+25313.39,26638.22,-0.6284,3,XGBoost,Acre
+2382.56,2661.81,-42.0143,3,XGBoost,Alagoas
+12804.47,13267.45,-146.5373,3,XGBoost,Amapá
+89989.74,105471.2,-1.8551,3,XGBoost,Amazonas
+132275.17,143086.77,-30.9851,3,XGBoost,Bahia
+2760.88,4323.67,-166.7787,3,XGBoost,Ceará
+132.94,163.05,-43.859,3,XGBoost,Distrito Federal
+14567.84,15657.16,-256.4831,3,XGBoost,Espírito Santo
+10377.55,12274.15,-20.1318,3,XGBoost,Goiás
+52064.35,63473.26,-4.7243,3,XGBoost,Maranhão
+388465.28,407343.58,-6.0425,3,XGBoost,Mato Grosso
+56178.63,56347.3,-4.8828,3,XGBoost,Mato Grosso do Sul
+59393.28,64948.45,-92.0518,3,XGBoost,Minas Gerais
+14968.76,15001.11,-4.3238,3,XGBoost,Paraná
+2146.83,2348.15,-29.1136,3,XGBoost,Paraíba
+337067.05,356252.68,-43.7631,3,XGBoost,Pará
+5481.45,5781.44,-125.0541,3,XGBoost,Pernambuco
+25768.4,26383.82,-1.7474,3,XGBoost,Piauí
+2721.7,3236.26,-21.9254,3,XGBoost,Rio Grande do Norte
+983.22,987.0,0.9606,3,XGBoost,Rio Grande do Sul
+1589.51,1860.89,-31.8249,3,XGBoost,Rio de Janeiro
+28888.52,38031.94,-4.4915,3,XGBoost,Rondônia
+31652.36,32848.59,-129.2687,3,XGBoost,Roraima
+15962.27,17850.02,-57.5022,3,XGBoost,Santa Catarina
+1248.19,1465.09,-13.7684,3,XGBoost,Sergipe
+16618.9,18769.87,-16.6966,3,XGBoost,São Paulo
+75465.23,83885.17,-113.0258,3,XGBoost,Tocantins
