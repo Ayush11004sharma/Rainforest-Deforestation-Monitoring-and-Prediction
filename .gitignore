@@ -21,13 +21,13 @@ jdk*/
 .DS_Store
 Thumbs.db
 
-# Data files (raw data should not be committed)
-data/raw/*.csv
-data/processed/*.csv
+# Data files (included for Streamlit deployment, <10MB total)
+# data/raw/*.csv
+# data/processed/*.csv
 
-# Model artifacts
-models/*.joblib
-models/*.pkl
+# Model artifacts (included for Streamlit deployment, <2MB total)
+# models/*.joblib
+# models/*.pkl
 
 # Reports
 reports/*.png
