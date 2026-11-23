@@ -37,8 +37,14 @@ jobs:
           pip install jupyter-book
 
       - name: Build site with Jupyter Book
+        env:
+          BASE_URL: /Rainforest-Deforestation-Monitoring-and-Prediction
         run: |
           jupyter-book build --html
+
+      - name: Disable Jekyll
+        run: |
+          touch _build/html/.nojekyll
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
