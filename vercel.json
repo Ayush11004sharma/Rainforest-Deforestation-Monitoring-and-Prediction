@@ -1,4 +1,15 @@
 {
-  "outputDirectory": "docs",
-  "cleanUrls": true
+  "version": 2,
+  "builds": [
+    {
+      "src": "docs/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/docs/$1"
+    }
+  ]
 }
