@@ -1,0 +1,10 @@
+app.py
+run_pipeline.py
+requirements.txt
+config.py
+src/
+models/
+data/
+reports/
+notebooks/
+tests/
