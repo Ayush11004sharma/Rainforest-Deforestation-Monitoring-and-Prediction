@@ -33,11 +33,8 @@ Thumbs.db
 reports/*.png
 reports/*.html
 
-# Jupyter & MyST Build
+# Jupyter
 .ipynb_checkpoints/
-_build/
-.myst/
-test_preview.html
 
 # Distribution
 dist/
